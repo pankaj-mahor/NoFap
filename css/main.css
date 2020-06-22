@@ -1,0 +1,239 @@
+html,
+body {
+  height: 100%;
+  /* font-family: 'Inconsolata', monospace; */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit],
+[role=button] {
+  cursor: pointer;
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a i, button i {
+  margin-right: 0.35rem;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Inter";
+  line-height: 1.5;
+  background-color: var(--body-background);
+  color: var(--body-color);
+}
+
+.container {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding: 1.5rem 0;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav h1 {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+nav h1 span {
+  border-bottom: 0.95px solid;
+}
+nav a i {
+  font-size: 0.7rem;
+  margin-right: 0;
+}
+
+.counter-section h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.counter-section .progress {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.counter-section .progress .minus {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.counter-section .progress .count {
+  display: flex;
+  border: 4px solid;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  width: 150px;
+  height: 150px;
+}
+.counter-section .progress .plus {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.counter-section .reset {
+  text-align: center;
+  margin-top: 2rem;
+}
+.counter-section .reset button {
+  background-color: #fff;
+  width: 60px;
+}
+
+.people h2 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.people table {
+  display: flex;
+  border-collapse: collapse;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+}
+.people table tr, .people table th, .people table td {
+  padding: 0.1rem 2rem;
+  font-size: 0.9rem;
+}
+.people table tr:nth-child(even) {
+  background-color: #e6e4ee;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.option button {
+  background-color: #fff;
+  padding: 0.9rem;
+}
+.option button:hover {
+  opacity: 0.8;
+}
+
+.join {
+  position: relative;
+  margin: 0 auto;
+  display: none;
+}
+.join form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.join input {
+  border: 0.8px solid #efeef4;
+  padding: 0.1rem;
+  margin: 0.25rem;
+}
+.join button {
+  flex-direction: row;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+  background-color: #fff;
+  width: 60px;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 2rem;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+/*# sourceMappingURL=main.css.map */

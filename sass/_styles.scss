@@ -1,0 +1,144 @@
+a,button {
+    i {
+        margin-right: 0.35rem;
+    }
+}
+// body
+body {
+    font-size:1rem ;
+    font-family: 'Inter', ;
+    line-height: 1.5;
+    background-color: var(--body-background);
+    color: var(--body-color);
+}
+.container {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    padding:1.5rem 0;
+    background-color: #fff;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  h1{
+    font-size: 1.3rem;
+    cursor: pointer;
+    span{
+      border-bottom: .95px solid;
+    }
+  }
+  a{
+    i{
+      font-size: .7rem;
+      margin-right: 0;
+    }
+  }
+}
+.counter-section {
+  h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .progress{
+      margin-top: 3rem;
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      .minus{
+        font-size: 2rem;
+        cursor: pointer;
+      }
+      .count{
+        display: flex;
+        border: 4px solid;
+        justify-content: center;
+        align-items: center;
+        font-family: Inter ,sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+        width: 150px;
+        height: 150px;
+      }
+      .plus{
+        font-size: 2rem;
+        cursor: pointer;
+      }
+  }
+  .reset{
+    text-align: center;
+    margin-top: 2rem;
+    button{
+      background-color: #fff;
+      width: 60px;
+    }
+  }
+}
+.people {
+  h2{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  table{
+    display: flex;
+    border-collapse: collapse;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    tr,th,td{
+      padding:0.1rem 2rem;
+      font-size: .9rem;
+    }
+    tr:nth-child(even){
+      background-color: #e6e4ee;
+    }
+  }
+}
+
+.option{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  button{
+    background-color: #fff;
+    padding: .9rem;
+    &:hover{
+      opacity: .8;
+    }
+  }
+}
+.join{
+  position: relative;
+  margin: 0 auto;
+  display: none;
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+  }
+  input{
+    border: .8px solid #efeef4;
+    padding: .1rem;
+    margin: .25rem;
+  }
+  button{
+      flex-direction: row;
+      margin-top: .2rem;
+      margin-left: .5rem;
+      background-color: #fff;
+      width: 60px;
+      border-radius: 5px;
+  }
+}
+footer{
+  padding: 2rem;
+}
